@@ -2,7 +2,7 @@
 var pilha = {
 	p: [],
 	s: [],
-	minEle: -1,
+	minEle: Number.MAX_SAFE_INTEGER,
 	getMin: function() {
 		if (this.s.length == 0)
 			return null
